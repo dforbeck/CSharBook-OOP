@@ -21,7 +21,7 @@ namespace OOP
             //Console.ReadLine();
         }
 
-        public void CalculateAnnualFee()
+        public override void CalculateAnnualFee()
         {
             annualFee = 100 + 12 * 30;
         }

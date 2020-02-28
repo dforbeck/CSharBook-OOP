@@ -13,7 +13,7 @@ namespace OOP
             Console.WriteLine("Child Constructor with 3 parameters");
         }
 
-        public void CalculateAnnualFee()
+        public override void CalculateAnnualFee()
         {
             annualFee = 1200;
         }

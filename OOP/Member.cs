@@ -33,7 +33,11 @@ namespace OOP
             name = pName;
             memberId = pMembershipId;
             memberSince = pMemberSince;
+        }
 
+        public virtual void CalculateAnnualFee() //declare virtual so can be overriden
+        {
+            annualFee = 0;
         }
 
     }
